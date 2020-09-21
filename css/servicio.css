@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none !important;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.spamSection {
+    background-color: teal;
+    width: 100%;
+}
+
+.texto-boton-wp {
+    font-size: 25px;
+}
+
+.boton-wp {
+    -webkit-transition: -webkit-transform .2s;
+    transition: -webkit-transform .2s;
+    transition: transform .2s;
+    transition: transform .2s, -webkit-transform .2s;
+}
+
+.boton-wp:hover {
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+}
+
+.sectionServicio{
+    background-image: url(../img/bg-flores.jpg);
+}
+
+.servicio{
+    background-color: rgba(0,0,0,0.65);
+    color: white;
+}
+
+section div div div h1{
+    text-transform: uppercase;
+    text-align: center;
+}
+section div div div hr{
+    background-color: white;
+}
+.infoServicio{
+    font-size: 18px;
+    text-align: center;
+}
+
+.boton{
+    margin-top: 3%;
+    margin-left: 25%;
+    font-weight: bold;
+    width: 50%;
+}

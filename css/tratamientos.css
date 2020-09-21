@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none !important;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.spamSection{
+    background-color: teal;
+    width: 100%;
+}
+
+.texto-boton-wp{
+    font-size: 25px;
+}
+.boton-wp{
+    transition: transform .2s;
+}
+.boton-wp:hover{
+    transform: scale(1.05);
+}
+
+.fullServicios{
+    background-image: url(../img/bg-vertical.jpg);
+    background-position: center;
+    background-size: auto;
+}
+
+.nos{
+    font-weight: bold;
+}
+
+.servicios{
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.separador1{
+    border-right: 1px solid white;
+    height: 100%;
+}
+
+@media only screen and (max-width: 550px){
+    .spamDiv{
+        margin: 0 !important;
+    }
+    .spamDiv .boton-wp{
+        
+        margin: 0 !important;
+        max-width: 100%;
+    }
+    .boton-wp{
+        text-align: center;
+        max-width: 100%;
+    }
+    .boton-wp img{
+        width: 100%;
+        
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .fullServicios {
+        background-image: url(../img/flores-background.jpg);
+    }
+}
+
+@media only screen and (max-width: 991px){
+    .separador1{
+        border-right: none;
+        border-bottom: 1px solid white;
+    }
+}

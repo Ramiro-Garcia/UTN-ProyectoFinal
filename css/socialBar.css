@@ -1,0 +1,76 @@
+.social-bar{
+    position:fixed;
+    right: 0;
+    top: 35%;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 100000;
+}
+
+.icon{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 0.7rem;
+    display: flex;
+    transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+}
+
+.social-bar .fa-facebook{
+    background:#3b5998; 
+    width: 45px;
+}
+
+.social-bar #fa-instagram{
+    background: #dd2a7b; 
+    width: 45px;
+}
+
+.social-bar .fa-whatsapp{
+    background: #00bb2d; 
+    width: 45px;
+}
+
+.social-bar .fa-envelope{
+    background: #e21f05; 
+    width: 45px;
+}
+
+.icon:first-child{
+    border-radius: 1rem 0 0 0;
+    -webkit-border-radius: 1rem 0 0 0;
+    -moz-border-radius: 1rem 0 0 0;
+    -ms-border-radius: 1rem 0 0 0;
+    -o-border-radius: 1rem 0 0 0;
+}
+
+.icon:last-child{
+    border-radius: 0 0 0 1rem;
+    -webkit-border-radius: 0 0 0 1rem;
+    -moz-border-radius: 0 0 0 1rem;
+    -ms-border-radius: 0 0 0 1rem;
+    -o-border-radius: 0 0 0 1rem;
+}
+
+.icon:hover{
+    padding-right: 5rem;
+    border-radius: 1rem 0 0 1rem;
+    -webkit-border-radius: 1rem 0 0 1rem;
+    -moz-border-radius: 1rem 0 0 1rem;
+    -ms-border-radius: 1rem 0 0 1rem;
+    -o-border-radius: 1rem 0 0 1rem;
+    box-shadow: 0 0 .5rem rgba(0,0,0,0.42);
+    color: white;
+}
+
+@media only screen and (max-width: 1199px){
+    .social-bar{
+        display: none;
+    }
+}

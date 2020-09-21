@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none !important; 
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.carousel-item {
+  -webkit-transition: -webkit-transform 2s;
+  transition: -webkit-transform 2s;
+  transition: transform 2s;
+  transition: transform 2s, -webkit-transform 2s;
+}
+
+.spamSection {
+  background-color: teal;
+  width: 100%;
+}
+
+.texto-boton-wp {
+  font-size: 25px;
+}
+
+.boton-wp {
+  -webkit-transition: -webkit-transform .2s;
+  transition: -webkit-transform .2s;
+  transition: transform .2s;
+  transition: transform .2s, -webkit-transform .2s;
+}
+
+.boton-wp:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.tratamientosDestacados {
+  background-image: url(../img/bg-flores.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.destacados {
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  text-transform: uppercase;
+}
+
+.destacadosImagen {
+  overflow: hidden;
+  transition: 0.8s;
+  -webkit-transition: 0.8s;
+  -moz-transition: 0.8s;
+  -ms-transition: 0.8s;
+  -o-transition: 0.8s;
+  max-width: 100%;
+  width: 220px;
+}
+
+.destacadosImagen:hover {
+  transform: scale(1.08);
+  -webkit-transform: scale(1.08);
+  -moz-transform: scale(1.08);
+  -ms-transform: scale(1.08);
+  -o-transform: scale(1.08);
+}
+
+h1 {
+  font-weight: 500;
+}
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+  .tratamientosDestacados{
+    background-image: url(../img/bg-vertical.jpg);
+    background-position: center;
+    background-size: auto;
+  }
+  .spamDiv {
+    margin: 0 !important;
+  }
+  .spamDiv .boton-wp {
+    margin: 0 !important;
+    max-width: 100%;
+  }
+  .boton-wp {
+    text-align: center;
+    max-width: 100%;
+  }
+  .boton-wp img {
+    width: 100%;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .tratamientosDestacados{
+    background-image: url(../img/bg-vertical.jpg);
+    background-position: center;
+    background-size: auto;
+  }
+  .destacadosImagen a img {
+    width: 190px;
+    height: 190px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .tratamientosDestacados {
+    background-size: cover;
+  }
+  .destacadosImagen a img {
+    width: 190px;
+    height: 190px;
+  }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .destacadosImagen a img {
+    width: 190px;
+    height: 190px;
+  }
+  .imgCarousel {
+    height: 400px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+  .destacadosImagen a img {
+    width: 205px;
+    height: 205px;
+  }
+  .imgCarousel {
+    height: 500px;
+  }
+}
+
+@media only screen and (min-width: 1350px) {
+  .destacadosImagen a img {
+    width: 225px;
+    height: 225px;
+  }
+  .imgCarousel {
+    height: 600px;
+  }
+}

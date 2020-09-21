@@ -1,0 +1,68 @@
+.falsoFooter{
+    background-color: rgb(30, 18, 97);
+    width: 100%;
+    color:white;
+}
+
+.letraff{
+    font-family: 'Lora', serif;
+}
+
+.wp{
+    color: white;
+}
+.wp:hover{
+    color:lime;
+    text-decoration: underline !important;
+    transition: 0.5s;
+}
+.ig a{
+    color: white;
+}
+.ig a:hover{
+    color: violet;
+    text-decoration: underline !important;
+    transition: 0.5s;
+}
+.letraff p .mail:hover{
+    color:white !important;
+    text-decoration: underline !important;
+    transition: 0.5s;
+}
+
+.enlaces p a{
+    /*text-decoration: none;*/
+    color: white;
+    transition: 0.5s;
+}
+
+.enlaces p a:hover{
+    color:violet;
+    text-decoration: underline !important;
+}
+
+.footer{
+    position: relative;
+    width: 100%;
+    bottom: 0px;
+    padding: 0.1%;
+    font-size: 13px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.footer a{
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.footer a:hover{
+    color: lime;
+}
+
+@media only screen and (max-width: 438px){
+    .footer{
+        padding:0%;
+        font-size: 11px;
+    }
+}

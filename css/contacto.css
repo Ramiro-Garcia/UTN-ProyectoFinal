@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: url(../img/flores-background.jpg);
+    background-size: cover;
+    
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.contenedor{
+    margin: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3%;
+    color: white;
+    background-color: rgb(30, 18, 97, 0.87);
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.contenedor h2{
+    text-align: center;
+}
+.boton{
+    margin-top: 3%;
+    margin-left: 25%;
+    font-weight: bold;
+    width: 50%;
+}
+

@@ -34,7 +34,6 @@
 <?php 
     include "socialBar.php";
 ?>
-
 <div id="myCarousel" class="carousel slide d-none d-lg-block " data-ride="carousel">
     <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -45,15 +44,31 @@
     <div class="carousel-inner">
         <div class="carousel-item active">
             <img class="d-block w-100 imgCarousel" height="650px" src="img/carousel1.jpg">
+            <div class="carousel-caption textCarousel1">
+                <h2 class="text-dark m-0"><a class="text-dark" href="#">Sentite bien</a></h2>
+                <p class="text-dark m-0">En Sandra Estética, que te sientas bien <br> es nuestra prioridad.</p>
+            </div>
         </div>
         <div class="carousel-item">
             <img class="d-block w-100 imgCarousel" height="650px" src="img/carousel2.jpg">
+            <div class="carousel-caption textCarousel2">
+                <h2 class="text-dark m-0"><a class="text-dark" href="#">Masajes relajantes</a></h2>
+                <p class="text-dark m-0">Disfrutá de uno de los masajes más solicitados! </p>
+            </div>
         </div>
         <div class="carousel-item">
             <img class="d-block w-100 imgCarousel" height="650px" src="img/carousel3.jpg">
+            <div class="carousel-caption textCarousel3">
+                <h2 class="m-0"><a class="text-white" href="peeling.php">Peeling</a></h2>
+                <p class="m-0">Cuidá la piel de tu cara</p>
+            </div>
         </div>
         <div class="carousel-item">
             <img class="d-block w-100 imgCarousel" height="650px" src="img/carousel4.jpg">
+            <div class="carousel-caption textCarousel4">
+                <h2 class="m-0"><a class="text-white" href="#">Masajes descontracturantes</a></h2>
+                <p class="m-0">Dejá de sentir dolores en tu espalda</p>
+            </div>
         </div>    
     </div>
 
